@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<Material>
+		<material id="1" name="Material3" type="rigid body">
+			<density>1</density>
+			<center_of_mass>0,0,0</center_of_mass>
+		</material>
+		<material id="2" name="Material4" type="Ogden">
+			<density>1</density>
+			<k>1000000</k>
+			<c1>4.497597719603e+03</c1>
+			<c2>0</c2>
+			<c3>0</c3>
+			<c4>0</c4>
+			<c5>0</c5>
+			<c6>0</c6>
+			<m1>4.175454824210e+00</m1>
+			<m2>1</m2>
+			<m3>1</m3>
+			<m4>1</m4>
+			<m5>1</m5>
+			<m6>1</m6>
+		</material>
+	</Material>
+</febio_spec>
