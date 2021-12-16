@@ -2,7 +2,7 @@
 
 In the enclosed Jupyter Notebook (``Ogden_Tutorial.ipynb``) we provide a brief tutorial on fitting the one-term Ogden model to an experimental test dataset. The accompanying paper "An Introduction to the Ogden Model in Biomechanics -- Benefits, Implementation Tools, and Limitations" is forthcoming.   
 
-In our tutorial, we are working with a pure shear experimental data. The pure shear testing mode looks like this: 
+In our tutorial, we are working with pure shear experimental data. The pure shear testing mode looks like this: 
 
 ![PureShear](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/edb472205048280f5d1e324dfb63c67c547a0742/figs/pure_shear.png)
 
