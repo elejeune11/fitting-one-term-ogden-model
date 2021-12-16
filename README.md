@@ -59,3 +59,5 @@ We hope that you find the tutorial useful!
 1. Sugerman, G. P., Chokshi, A., & Rausch, M. K. (2021). Preparation and Mounting of Whole Blood Clot Samples for Mechanical Testing. Current Protocols, 1(7), e197. <https://doi.org/10.1002/cpz1.197>
 2. Sugerman, G. P., Kakaletsis, S., Thakkar, P., Chokshi, A., Parekh, S. H., & Rausch, M. K. (2021). A whole blood thrombus mimic: Constitutive behavior under simple shear. Journal of the Mechanical Behavior of Biomedical Materials, 115, 104216. <https://doi.org/10.1016/j.jmbbm.2020.104216>
 3. Maas, S. A., Ellis, B. J., Ateshian, G. A., & Weiss, J. A. (2012). FEBio: finite elements for biomechanics. Journal of biomechanical engineering, 134(1). <https://doi.org/10.1115/1.4005694>
+
+**Contact:** [E. Lejeune](https://sites.bu.edu/lejeunelab/), [M.K. Rausch](http://www.manuelrausch.com/)
