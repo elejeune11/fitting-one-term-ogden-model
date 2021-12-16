@@ -1,6 +1,6 @@
 # fitting-one-term-ogden-model
 
-will update this tomorrow! 
+In the enclosed Jupyter Notebook (``Ogden_Tutorial.ipynb'') we provide a brief tutorial on fitting the one-term Ogden model to an experimental test dataset. The accompanying paper "An Introduction to the Ogden Model in Biomechanics -- Benefits, Implementation Tools, and Limitations" is forthcoming.   
 
 
 ![PureShear](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/edb472205048280f5d1e324dfb63c67c547a0742/figs/pure_shear.png)
