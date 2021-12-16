@@ -28,6 +28,8 @@ To obtain the finite element solution, we call the finite element software FEBio
 
 For this example, both the analytical solution and the finite element solution fit the experimental data quite well:
 
+\\
+
 <p align="center">
 <img src="https://github.com/elejeune11/fitting-one-term-ogden-model/blob/f0d8c87234c9dd89c2d5ddf19402e11912a67d5c/figs/fit_comparison.png" width="600">
 </p>
