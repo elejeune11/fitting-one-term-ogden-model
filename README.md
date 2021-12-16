@@ -4,7 +4,7 @@ In the enclosed Jupyter Notebook (``Ogden_Tutorial.ipynb``) we provide a brief t
 
 In our tutorial, we are working with pure shear experimental data. The pure shear testing mode looks like this: 
 
-![PureShear](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/edb472205048280f5d1e324dfb63c67c547a0742/figs/pure_shear.png)
+![PureShear](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/edb472205048280f5d1e324dfb63c67c547a0742/figs/pure_shear.png | width=100 height=100)
 
 The "homogeneous" approximation of the deformation field can be used to formulate an analytical approximation of an Ogden material undergoing pure shear. The "inhomogeneous" deformation field can be captured by simulating the experimental domain with the finite element method. In this tutorial, we work with experimental test data performed on blood clot coagulated in vitro. For more information on this material, please see [1,2,3]. For our example, the experimental data looks like this: 
 
