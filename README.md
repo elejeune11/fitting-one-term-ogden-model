@@ -6,11 +6,11 @@ In our tutorial, we are working with pure shear experimental data. The pure shea
 
 ![PureShear](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/edb472205048280f5d1e324dfb63c67c547a0742/figs/pure_shear.png)
 
-The "homogeneous" approximation of the deformation field can be used to formulate an analytical approximation of an Ogden material undergoing pure shear. The "inhomogeneous" deformation field can be captured by simulating the experimental domain with the finite element method. In this tutorial, we work with experimental test data performed on blood clot coagulated in vitro. For more information on this material, please see [1,2,3]. For our example, the experimental data looks like this: 
+The "homogeneous" approximation of the deformation field can be used to formulate an analytical approximation of an Ogden material undergoing pure shear. The "inhomogeneous" deformation field can be captured by simulating the experimental domain with the finite element method. In this tutorial, we work with experimental test data performed on blood clot coagulated in vitro. For more information on this material, please see [1,2]. For our example, the experimental data looks like this: 
 
 ![ExptData](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/f0d8c87234c9dd89c2d5ddf19402e11912a67d5c/figs/expt_test.png)
 
-In our tutorial, we provide code to fit this experimental data to the one-term Ogden model using the ``scipy.optimize.curve_fit'' function. First, we demonstrate this process with the analytical solution implemented as a simple Python function. Then, we demonstrate this process with finite element forward simulations run in FEBio []. The basic algorithm looks like this: 
+In our tutorial, we provide code to fit this experimental data to the one-term Ogden model using the ``scipy.optimize.curve_fit'' function. First, we demonstrate this process with the analytical solution implemented as a simple Python function. Then, we demonstrate this process with finite element forward simulations run in FEBio [3]. The basic algorithm looks like this: 
 
 ![Regression](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/f0d8c87234c9dd89c2d5ddf19402e11912a67d5c/figs/fitting_algorithm.png)
 
@@ -22,6 +22,10 @@ For this example, both the analytical solution and the finite element solution f
 
 ![CompareRes](https://github.com/elejeune11/fitting-one-term-ogden-model/blob/f0d8c87234c9dd89c2d5ddf19402e11912a67d5c/figs/fit_comparison.png)
 
-We hope that you find this tutorial useful!
+We hope that you find the tutorial useful!
 
 # References
+
+1. Sugerman, G. P., Chokshi, A., & Rausch, M. K. (2021). Preparation and Mounting of Whole Blood Clot Samples for Mechanical Testing. Current Protocols, 1(7), e197. <https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/cpz1.197>
+2. Sugerman, G. P., Kakaletsis, S., Thakkar, P., Chokshi, A., Parekh, S. H., & Rausch, M. K. (2021). A whole blood thrombus mimic: Constitutive behavior under simple shear. Journal of the Mechanical Behavior of Biomedical Materials, 115, 104216. <https://www.sciencedirect.com/science/article/pii/S1751616120307566>
+3. Maas, S. A., Ellis, B. J., Ateshian, G. A., & Weiss, J. A. (2012). FEBio: finite elements for biomechanics. Journal of biomechanical engineering, 134(1). <https://doi.org/10.1115/1.4005694>
